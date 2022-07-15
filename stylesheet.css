@@ -1,0 +1,143 @@
+body{
+  font-family: 'Roboto' sans-serif;
+   background-color: #1f2935;
+}
+header{
+  padding: 16px 20px;
+  display: block;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+nav .logo a{
+  text-decoration: none;
+color: inherit;
+}
+nav .logo{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+
+}
+nav .links ul{
+  display: flex;
+  font-size: 14px;
+  gap: 16px;
+  list-style: none;
+  color: white;
+}
+.first-section{
+display: flex;
+justify-content: center;
+text-align: center;
+padding: 0px 100px;
+margin: 40px 0px;
+
+}
+.leftbar{
+  height: 160px;
+  width: 400px;
+  margin-right: 311px;
+}
+.leftbar h1{
+  color: white;
+  font-size: 40px;
+    font-weight: 600;
+}
+.leftbar p{
+  font-size: 25px;
+  color: white;
+}
+.leftbar button{
+  color: white;
+font-size: 18px;
+font-weight: 400;
+padding: 5px 10px;
+background-color: #3882f5;
+border: none;
+border-radius: 5px;
+margin: -10px;
+}
+.rightbar{
+  display: flex;
+  justify-content: center;
+  background-color:gray;
+  color: white;
+  height:273px;
+  width: 447px;
+  align-items: center;
+  margin: 28px;
+}
+.second-section{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padd
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.box1 div, .box2 div, .box3 div, .box4 div{
+  width: 155px;
+  height: 155px;
+ border: 3px solid #3882f6 ;
+ border-radius: 5px;
+}
+.box1, .box2, .box3, .box4 {
+  display: flex;
+  height: auto;
+  width: 155px;
+  margin: 8px;
+  align-content: center;
+  justify-content:center;
+  flex-direction:column;
+  padding:20px;
+}
+.third-section{
+  background-color:#eaeef3;
+    padding: 76px 409px;
+}
+.third-section em{
+font-size: 20px;
+font-weight: 50px;
+}
+.third-section span{
+  float: right;
+margin: 33px;
+font-size: 17px;
+}
+.last-section{
+  background-color: white;
+  padding: 48px 200px;
+}
+.last-section .content{
+display: flex;
+background:#5738f5;
+justify-content: space-between;
+align-items: center;
+color: white;
+border-radius: 5px;
+padding: 9px 63px;
+}
+.content button{
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: 3px solid white;
+  cursor:pointer;
+  padding: 8px 17px;
+  font-size: 16px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+}
